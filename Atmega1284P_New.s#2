@@ -12072,8 +12072,8 @@ part number 2062-2P from STA</description>
 <instance part="GND11" gate="1" x="210.82" y="104.14" smashed="yes">
 <attribute name="VALUE" x="208.28" y="101.6" size="1.778" layer="96"/>
 </instance>
-<instance part="GND7" gate="1" x="-119.38" y="134.62" smashed="yes">
-<attribute name="VALUE" x="-121.92" y="132.08" size="1.778" layer="96"/>
+<instance part="GND7" gate="1" x="-132.08" y="132.08" smashed="yes">
+<attribute name="VALUE" x="-134.62" y="129.54" size="1.778" layer="96"/>
 </instance>
 <instance part="GND13" gate="1" x="-55.88" y="124.46" smashed="yes">
 <attribute name="VALUE" x="-58.42" y="121.92" size="1.778" layer="96"/>
@@ -12274,9 +12274,9 @@ part number 2062-2P from STA</description>
 <attribute name="VALUE" x="86.36" y="109.22" size="1.778" layer="96"/>
 <attribute name="NAME" x="86.36" y="120.142" size="1.778" layer="95"/>
 </instance>
-<instance part="J1" gate="G$1" x="-129.54" y="142.24" smashed="yes">
-<attribute name="VALUE" x="-132.08" y="137.414" size="1.778" layer="96" font="vector"/>
-<attribute name="NAME" x="-132.08" y="147.828" size="1.778" layer="95" font="vector"/>
+<instance part="J1" gate="G$1" x="-124.46" y="142.24" smashed="yes" rot="R180">
+<attribute name="VALUE" x="-121.92" y="147.066" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="-121.92" y="136.652" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
 <instance part="D1" gate="G$1" x="-114.3" y="142.24" smashed="yes">
 <attribute name="NAME" x="-116.84" y="144.78" size="1.27" layer="95"/>
@@ -12480,9 +12480,8 @@ part number 2062-2P from STA</description>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="-121.92" y1="144.78" x2="-119.38" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="-119.38" y1="144.78" x2="-119.38" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
+<wire x1="-132.08" y1="139.7" x2="-132.08" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -13123,8 +13122,10 @@ part number 2062-2P from STA</description>
 <net name="N$51" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="-132.08" y1="142.24" x2="-132.08" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="149.86" x2="-116.84" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="-121.92" y1="142.24" x2="-116.84" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="149.86" x2="-116.84" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
