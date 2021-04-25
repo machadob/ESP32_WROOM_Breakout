@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : /Users/burton/0000000_LEARN/Embedded/Atmega1284P_Schematic_MIN/Atmega1284P_New.brd
+Job           : /Users/burton/Embedded/ESP32_WROOM/Atmega1284P_Schematic_MIN/Atmega1284P_New.brd
 
-Start at      : 21:01:18 (8/15/19)
-End at        : 21:02:31 (8/15/19)
-Elapsed time  : 00:01:12
+Start at      : 15:58:09 (4/25/21)
+End at        : 15:59:12 (4/25/21)
+Elapsed time  : 00:01:01
 
-Signals       :    55   RoutingGrid: 5 mil  Layers: 2
-Connections   :   128   predefined:  0 ( 0 Vias )
+Signals       :    19   RoutingGrid: 5 mil  Layers: 2
+Connections   :    51   predefined:  0 ( 0 Vias )
 
-Router memory :   954096
+Router memory :   956320
 
 Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
 
-Time per pass     :  00:00:06  00:00:40  00:00:03  00:00:02  00:00:02  00:00:02  00:00:03  00:00:02  00:00:02  00:00:02  00:00:02  00:00:02  00:00:02  00:00:02
-Number of Ripups  :         0       192         0         0         0         0         0         0         0         0         0         0         0         0
-max. Level        :         0         4         0         0         0         0         0         0         0         0         0         0         0         0
-max. Total        :         0        55         0         0         0         0         0         0         0         0         0         0         0         0
+Time per pass     :  00:00:02  00:00:01  00:00:01  00:00:01  00:00:00  00:00:01  00:00:01  00:00:01  00:00:01  00:00:00  00:00:01  00:00:01  00:00:01  00:00:49
+Number of Ripups  :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+max. Level        :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
+max. Total        :         0         0         0         0         0         0         0         0         0         0         0         0         0         0
 
-Routed            :        26       128       128       128       128       128       128       128       128       128       128       128       128       128
-Vias              :         0       161       147       139       123       121       116       113       111       107       105       105       105       105
-Resolution        :    20.3 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :        17        51        51        51        51        51        51        51        51        51        51        51        51        51
+Vias              :         0        17        15        15        13        13        13        13        12        11        11        11        11        11
+Resolution        :    33.3 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
 Final             : 100.0% finished

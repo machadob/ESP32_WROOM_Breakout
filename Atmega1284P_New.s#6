@@ -10876,7 +10876,6 @@ Source: http://www.osram.convergy.de/</description>
 <part name="SERIAL1" library="SparkFun-Connectors" deviceset="M06" device="SILK_FEMALE_PTH"/>
 <part name="RESET_EP32" library="GeekAmmo" deviceset="TACTILE-SWITCH" device="-PTH" value="RESET"/>
 <part name="GND27" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="GND28" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SERIALW" library="SparkFun-Connectors" deviceset="M06" device="SILK_FEMALE_PTH"/>
 <part name="GND29" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LED_IOW" library="adafruit" deviceset="LED" device="CHIPLED_0805"/>
@@ -10896,7 +10895,6 @@ Source: http://www.osram.convergy.de/</description>
 <part name="SER0_RX" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="SER0_TX" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="RESET" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
-<part name="PWR3" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 </parts>
 <sheets>
 <sheet>
@@ -11144,9 +11142,6 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="GND27" gate="1" x="83.82" y="104.14" smashed="yes">
 <attribute name="VALUE" x="81.28" y="101.6" size="1.778" layer="96"/>
 </instance>
-<instance part="GND28" gate="1" x="165.1" y="45.72" smashed="yes">
-<attribute name="VALUE" x="162.56" y="43.18" size="1.778" layer="96"/>
-</instance>
 <instance part="SERIALW" gate="G$1" x="193.04" y="43.18" smashed="yes" rot="R180">
 <attribute name="VALUE" x="198.12" y="53.34" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="195.58" y="32.258" size="1.778" layer="95" rot="R180"/>
@@ -11215,10 +11210,6 @@ Source: http://www.osram.convergy.de/</description>
 <instance part="RESET" gate="G$1" x="-78.74" y="91.44" smashed="yes">
 <attribute name="VALUE" x="-81.28" y="86.36" size="1.778" layer="96"/>
 <attribute name="NAME" x="-81.28" y="97.282" size="1.778" layer="95"/>
-</instance>
-<instance part="PWR3" gate="G$1" x="157.48" y="50.8" smashed="yes">
-<attribute name="VALUE" x="154.94" y="45.72" size="1.778" layer="96"/>
-<attribute name="NAME" x="154.94" y="56.642" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -11420,11 +11411,6 @@ Source: http://www.osram.convergy.de/</description>
 <pinref part="RESET" gate="G$1" pin="1"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <wire x1="-71.12" y1="91.44" x2="-71.12" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="PWR3" gate="G$1" pin="1"/>
-<pinref part="GND28" gate="1" pin="GND"/>
-<wire x1="165.1" y1="50.8" x2="165.1" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -11978,12 +11964,7 @@ Source: http://www.osram.convergy.de/</description>
 <segment>
 <pinref part="U3" gate="G$1" pin="IO0"/>
 <pinref part="IO0" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="73.66" x2="177.8" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="73.66" x2="187.96" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="73.66" x2="177.8" y2="53.34" width="0.1524" layer="91"/>
-<junction x="177.8" y="73.66"/>
-<pinref part="PWR3" gate="G$1" pin="2"/>
-<wire x1="177.8" y1="53.34" x2="165.1" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="175.26" y1="73.66" x2="187.96" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
